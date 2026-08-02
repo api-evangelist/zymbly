@@ -1,8 +1,28 @@
 aid: zymbly
 name: Zymbly
-description: Zymbly is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zymbly is a Y Combinator (Winter 2026) startup building a voice-first AI copilot
+  for aircraft maintenance. Its AI agents automate the administrative half of a
+  maintenance technician's day at airlines and MROs (maintenance, repair, and
+  overhaul organizations): troubleshooting issues, looking up parts, retrieving
+  technical documentation, and generating compliant paperwork so technicians can
+  focus on the aircraft. Zymbly is a demo-led B2B product with no public API,
+  developer portal, SDKs, or machine-readable specifications at this time; this
+  profile was added to the API Evangelist network as a portfolio-lead stub and
+  enriched from the company's public marketing site.
 url: https://raw.githubusercontent.com/api-evangelist/zymbly/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.zymbly.com/brand-assets/zymbly_logo_536d1c63.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +31,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Aviation
+- Aircraft Maintenance
+- AI Agents
+- Voice
+- Y Combinator
+- MRO
 apis: []
+common:
+- type: DomainSecurity
+  url: security/zymbly-domain-security.yml
+- type: Website
+  url: https://www.zymbly.com
+- type: PrivacyPolicy
+  url: https://www.zymbly.com/privacy
+- type: TermsOfService
+  url: https://www.zymbly.com/terms
+- type: GitHubOrganization
+  url: https://github.com/Zymbly
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
